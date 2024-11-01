@@ -1,5 +1,6 @@
 import pygame, sys, math, random
 
+
 # Test if two sprite masks overlap
 def pixel_collision(mask1, rect1, mask2, rect2):
     offset_x = rect2[0] - rect1[0]
